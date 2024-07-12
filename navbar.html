@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(112, 204, 235);
+  padding: 20px;
+}
+
+.logo {
+  color: white;
+  margin-left: 30px;
+}
+.logo img {
+  height: 35px;
+  width: 35px;
+  border-radius: 15px;
+}
+.links {
+  list-style: none;
+  display: flex;
+}
+
+.item {
+  margin-right: 30px;
+}
+
+.navbar {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.navbar:hover {
+  color: orange;
+}
+    </style>
+</head>
+<body>
+    <header id="navbar">
+        <nav class="container">
+            <div class="logo">
+                <img src="todo icon.webp" alt="logo" srcset="">
+                <span>TO-DO APP</span>
+            </div>
+            <div>
+                <ul class="links">
+                    <li class="item"><a class="navbar" href="/home">Home</a></li>
+                    <li class="item"><a class="navbar" href="/about">About</a></li>
+                    <li class="item"><a class="navbar" href="/contact">Contact</a></li>
+                    <li class="item"><a class="navbar" href="/login">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+</html>
